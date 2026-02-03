@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 20px;
+    
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(15, 171, 46);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.link:hover {
+    background-color: #6be4af;
+    cursor: pointer;
+    transition: all 0.3s;
+}
